@@ -1,27 +1,19 @@
 <?php
 $dimensiones=array(
-	"primera dimension" => array(
-		"Ejemplo" => "Una linea",
-		"segunda dimension" => array(
-			"Ejemplo" => "Un cuadro (geometrico)",
-			"tercera dimension" => array(
-				"Ejemplo" => "Un cubo",
-				"cuarta dimension" => array(
-					"Ejemplo" => "El tiempo",
-					"quinta dimension" =>array(
-						"Einstein" => "Nunca habia llegado tan lejos",
-						"...onceava dimension" =>array(
-							"Hawking" => "Cuerdas!!!",
-							"ya ahi muere porfa"
-						)
-					)
+			"1 dimension" => array(
+							"Ejemplo" => "Una linea",
+							"2 dimension" => array(
+											"Ejemplo" => "Un cuadro (geometrico)",
+											"3 dimension" => array(
+															"Ejemplo" => "Un cubo"
+														)
+							)
 				)
-			)
-		)
-	)
 );
 echo "<pre>";
 var_dump($dimensiones);
 echo "</pre>";
+echo "<br>";
+echo $dimensiones;
 unset($dimensiones);
 ?>
