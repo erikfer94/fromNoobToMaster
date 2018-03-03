@@ -2,7 +2,7 @@
 $mensaje = 'hola';
 // Sin "use"
 $ejemplo = function () {
-    var_dump($mensaje);
+   // var_dump($mensaje);
 };
 $ejemplo();
 // Heredar $mensaje

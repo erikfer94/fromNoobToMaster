@@ -17,5 +17,7 @@ foreach ($foo as $key => $valor) {
 }
 /*$foo[]="otro dato";
 var_dump($foo);*/
+echo $foo["chela"];
+echo $foo[10];
 echo "</pre>";
 ?>
