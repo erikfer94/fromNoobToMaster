@@ -1,8 +1,8 @@
 <?php
 $test=false;
-if($test){ ?>
-Es verdadero
-<?php }else { ?>
-Es falso
-<?php } 
+if($test){ 
+	echo "Es verdadero";
+}else { ?>
+	echo "Es falso";
+<?php  } 
 ?>
