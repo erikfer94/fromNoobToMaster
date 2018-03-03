@@ -5,4 +5,8 @@ if($a>$b)
 {
 	echo "Es verdad";
 }
+else
+{
+	echo "es mentira";
+}
 ?>

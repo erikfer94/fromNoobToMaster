@@ -2,7 +2,7 @@
 $mensaje = 'hola';
 // Sin "use"
 $ejemplo = function () {
-    var_dump($mensaje);
+    #var_dump($mensaje);
 };
 $ejemplo();
 // Heredar $mensaje
@@ -21,6 +21,7 @@ $ejemplo = function () use (&$mensaje) {
     var_dump($mensaje);
 };
 $ejemplo();
+echo "<br/>";
 // El valor cambiado en el ámbito padre
 // se refleja dentro de la llamada a la función
 $mensaje = 'mundo';

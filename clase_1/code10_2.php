@@ -7,7 +7,10 @@
 	<form method="POST" action="code10_3.php">
 		<input type="text" name="nombre">
 		<input type="text" name="apellido">
+		<input type="number" name="edad">
 		<input type="submit" name="Enviar">
+
+
 	</form>
 </body>
 </html>

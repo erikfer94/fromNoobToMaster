@@ -10,7 +10,7 @@ elseif($c==$a)
 {
 	echo "c y a son iguales";
 }
-elseif($c>$a)
+elseif($c>$b)
 {
 	echo "c es mayor que a";
 }
