@@ -21,4 +21,11 @@ $k=$d%$c;
 var_dump($k);
 $l=$d**$c;
 var_dump($l);
+
+$c=10;
+$d=2;
+var_dump($c/$d);
+$c=10.0;
+$d=2;
+var_dump($c/$d);
 ?>

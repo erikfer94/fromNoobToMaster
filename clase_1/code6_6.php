@@ -8,7 +8,7 @@ var_dump($a);
 $b="Hola";
 $b.=" me llamo Erik";	//"Hola"." me llamo Erik";
 var_dump($b);
-$c=($d=4)+5;	//$d=4 y $c=$d+$5
+$c=($d=4)+5;	/*$d=4 y $c=$d+$5 php primero hace los parentesis */
 var_dump($d);
 var_dump($c);
 ?>

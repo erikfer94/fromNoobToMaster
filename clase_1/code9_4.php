@@ -2,7 +2,7 @@
 $mensaje = 'hola';
 // Sin "use"
 $ejemplo = function () {
-    var_dump($mensaje);
+    // var_dump($mensaje); se pone como comentario por que ya que no estamos utilizando 'use' php no reconoce de la variable 'mensaje'
 };
 $ejemplo();
 // Heredar $mensaje

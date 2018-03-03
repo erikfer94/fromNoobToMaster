@@ -1,3 +1,4 @@
+
 <?php
 $dimensiones=array(
 	"primera dimension" => array(
