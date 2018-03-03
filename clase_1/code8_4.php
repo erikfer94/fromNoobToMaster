@@ -15,6 +15,11 @@ var_dump($llaves);
 foreach ($foo as $key => $valor) {
 	echo $key." => ".$valor."<br/>";
 }
+echo $foo["chela"];
+echo $foo[10];
+$foo[]="otro dato";
+var_dump($foo);
+
 /*$foo[]="otro dato";
 var_dump($foo);*/
 echo "</pre>";
