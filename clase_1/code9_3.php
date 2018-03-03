@@ -5,5 +5,6 @@ $saludo = function($nombre)
 };
 
 $saludo('Mundo');
+echo "<br>";	
 $saludo('PHP');
 ?>

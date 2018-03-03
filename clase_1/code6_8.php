@@ -1,4 +1,5 @@
 <?php
+//tienes que ver el codigo 6.11 primero
 echo "<h3>Postincremento</h3>";
 $a = 5;
 echo "Debe ser 5: " . $a++ . "<br />\n";

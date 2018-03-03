@@ -1,4 +1,5 @@
 <?php
+//interpren el texto como va las comiyas simples
 echo 'Esto es una cadena sencilla';
 echo "<br>";
 echo 'También se pueden incluir nuevas líneas en 

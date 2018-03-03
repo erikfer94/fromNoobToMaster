@@ -12,6 +12,6 @@ echo ANIMALES[1]; // muestra "gato"
     'perro',
     'gato',
     'pájaro'
-));
-echo ANIMALES[1]; // muestra "gato"*/
+));*/
+echo ANIMALES[1]; // muestra "gato"
 ?>

@@ -1,5 +1,5 @@
 <?php
-$i=1;
+$i=;
 switch ($i) {
     case 0:
         echo "i es igual a 0";

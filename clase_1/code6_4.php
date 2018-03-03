@@ -1,9 +1,9 @@
-<?php
+<?php  //i.e: como se manejan los operadores aricmeticos
 $a="1";
 var_dump($a);
 $a=+$a;
 var_dump($a);
-$b=-$a;
+$b=-$a;//b va hacer lo opuesta de a
 var_dump($b);
 $c=3;
 $d=4;
@@ -20,5 +20,15 @@ var_dump($i);
 $k=$d%$c;
 var_dump($k);
 $l=$d**$c;
-var_dump($l);
+var_dump($l); 
+
+$c=10;
+$d=2;
+var_dump($c/$d);
+$c=10.0;
+$d=2;
+var_dump($c/$d);
+$c=10;
+$d=3;
+var_dump($c/$d);
 ?>

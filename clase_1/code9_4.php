@@ -2,7 +2,7 @@
 $mensaje = 'hola';
 // Sin "use"
 $ejemplo = function () {
-    var_dump($mensaje);
+    //var_dump($mensaje); //esto no esta dentro de la funcion
 };
 $ejemplo();
 // Heredar $mensaje
@@ -17,7 +17,7 @@ $ejemplo();
 // Reiniciar el mensaje
 $mensaje = 'hola';
 // Heredar por referencia
-$ejemplo = function () use (&$mensaje) {
+$ejemplo = function () use (&$mensaje) {// se pasa por referencia con un &.
     var_dump($mensaje);
 };
 $ejemplo();

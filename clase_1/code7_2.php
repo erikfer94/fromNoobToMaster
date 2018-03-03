@@ -7,6 +7,6 @@ if($a<$b)
 }
 else
 {
-	echo "Es falso";
+	echo "es falso";
 }
 ?>
