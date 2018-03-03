@@ -2,7 +2,7 @@
 $mensaje = 'hola';
 // Sin "use"
 $ejemplo = function () {
-    var_dump($mensaje);
+  //  var_dump($mensaje);
 };
 $ejemplo();
 // Heredar $mensaje
@@ -12,10 +12,10 @@ $ejemplo = function () use ($mensaje) {
 $ejemplo();
 // El valor de la variable heredada está cuando la función
 // está definida, no cuando se le invoca
-$mensaje = 'mundo';
+$mensaje = 'mundo1';
 $ejemplo();
 // Reiniciar el mensaje
-$mensaje = 'hola';
+$mensaje = 'hola1';
 // Heredar por referencia
 $ejemplo = function () use (&$mensaje) {
     var_dump($mensaje);

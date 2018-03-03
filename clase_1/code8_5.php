@@ -12,7 +12,7 @@ $dimensiones=array(
 						"Einstein" => "Nunca habia llegado tan lejos",
 						"...onceava dimension" =>array(
 							"Hawking" => "Cuerdas!!!",
-							"ya ahi muere porfa"
+							"ya ahi muere porfavor"
 						)
 					)
 				)
