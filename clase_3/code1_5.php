@@ -1,5 +1,5 @@
 <?php
-class ParaDestruit {
+class ParaDestruir {
    function __construct() {
        print "En el constructor\n";
        $this->nombre = "FES";
@@ -10,6 +10,6 @@ class ParaDestruit {
    }
 }
 
-$obj = new ParaDestruit();
+$obj = new ParaDestruir();
 echo "<br/>".$obj->nombre;
 ?>
