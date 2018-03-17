@@ -1,6 +1,6 @@
 <?php
 $a=4;
-$b=5;
+$b=3;
 if($a<$b)
 {
 	echo "Es verdad";

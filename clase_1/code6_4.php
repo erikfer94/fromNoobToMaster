@@ -1,5 +1,5 @@
 <?php
-$a="1"; //identidad le esta agregando un entero 
+$a="1";
 var_dump($a);
 $a=+$a;
 var_dump($a);
@@ -21,14 +21,4 @@ $k=$d%$c;
 var_dump($k);
 $l=$d**$c;
 var_dump($l);
-
-$c=10;
-$d=2;
-var_dump($c/$d);
-$c=10.0;
-$d=2;
-var_dump(10/2);
-$c=10;
-$d=3;
-var_dump(10/3);
 ?>

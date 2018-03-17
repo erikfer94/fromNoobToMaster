@@ -12,6 +12,6 @@ var_dump($a<$b);	//true
 var_dump($a>$b);	//false
 var_dump($b<=$d);	//true
 var_dump($b>=$d);	//true
-//var_dump($a<=>$b);	//-1
-//var_dump($b<=>$a);	//1
+var_dump($a<=>$b);	//-1
+var_dump($b<=>$a);	//1
 ?>
