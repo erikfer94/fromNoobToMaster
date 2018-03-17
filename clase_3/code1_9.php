@@ -12,5 +12,9 @@ $bici->encender();
 $bici->acelerar();
 echo $bici->medio."<br/>";
 echo $bici->getRuedas()."<br/>";
-
+$hitler=new submarino();
+$hitler->encender();
+$hitler->acelerar();
+echo $hitler->medio."<br/>";
+echo $hitler->getRuedas()."<br/>";
 ?>

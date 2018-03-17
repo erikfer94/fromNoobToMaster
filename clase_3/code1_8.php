@@ -2,7 +2,10 @@
 require_once "code1_7.php";
 
 class automovil extends vehiculo{
-
+	public function encender()
+	{
+		echo "Puchale al boton";
+	}
 }
 
 class bicicleta extends vehiculo{
@@ -21,4 +24,17 @@ class bicicleta extends vehiculo{
 	}
 }
 /*Defina aqui la clase Submarino*/
+class submarino extends vehiculo{
+	public $armaNuclear=true;
+	public $medio="agua";
+	public $usaRuedas=false;
+	public $pasajeros="n";
+
+	public function encender(){
+		echo "juntamos los cables<br/>";
+	}
+	public function acelerar(){
+		echo "Rema ESCLAVO!!";
+	}
+}
 ?>

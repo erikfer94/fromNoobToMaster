@@ -22,4 +22,5 @@ $ejemplo2=new Ejemplo2;
 $ejemplo->hacerecho();
 $ejemplo->sumar(3,4);
 $ejemplo2->hacerecho();
+$ejemplo2->sumar(5,6);
 ?>

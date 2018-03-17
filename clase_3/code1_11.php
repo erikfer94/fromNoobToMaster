@@ -11,6 +11,7 @@ class Ejemplo2 extends Ejemplo
 }
 
 $classname = 'Ejemplo2';
+echo $classname;
 $classname::ejemplo(); // A partir de PHP 5.3.0
 
 Ejemplo2::ejemplo();

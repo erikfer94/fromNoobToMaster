@@ -16,7 +16,7 @@ class Bar extends Foo
 print Foo::$mi_static . "<br/>";
 $foo = new Foo();
 print $foo->valorStatic() . "<br/>";
-print $foo->mi_static . "<br/>";     
+//print $foo->mi_static . "<br/>";     
 print $foo::$mi_static . "<br/>";
 $nombreClase = 'Foo';
 print $nombreClase::$mi_static . "<br/>"; 

@@ -1,20 +1,20 @@
 <?php
-class Ejemplo{
+class perro{
 	public $valor=1;
 }
-$a=new Ejemplo;
+$a=new perro;
 $b=$a;
 $b->valor=2;
-echo $a->valor;
-$c=new Ejemplo;
-echo $c->valor;
-$d=&$c;
+echo "El valor de a (el perro original)".$a->valor."<br/>";
+$perroNuevo=new perro;
+echo "El valor del perro nuevo (Juan) ". $perroNuevo->valor."<br/>";
+$d=&$perroNuevo;
 $d->valor=2;
-echo $c->valor;
-$e=new Ejemplo;
+echo "El valo del perro Juan pero ya manoseado ".$perroNuevo->valor."<br/>";
+$tercerPerro=new perro;
 function ejemplo($obj){
 	$obj->valor=2;
 }
-ejemplo($e);
-echo $e->valor;
+ejemplo($tercerPerro);
+echo "El valor del tercer Perro (otro Juan) despues de la funcion ejemplo ".$tercerPerro->valor;
 ?>

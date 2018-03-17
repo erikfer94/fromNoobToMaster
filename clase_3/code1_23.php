@@ -1,8 +1,8 @@
 <?php
-class Ejemplo{
+class Universo{
 	public $valor=1;
 }
-$a=new Ejemplo;
+$a=new Universo;
 echo $a->valor;
 $a->valor=2;
 $b=clone $a;
