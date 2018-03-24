@@ -1,0 +1,35 @@
+body{
+	font-family: Lucida Console, monospaced;
+}
+.contenedor{
+	width: 100%;
+	text-align: center;
+	display: block;
+}
+.login{
+	width: 25%;
+	margin: 50px auto;
+	border: 1px solid #20ff50;
+	background-color: #bfffbf;
+	padding: 15px;
+	text-align: center;
+	display: block;
+}
+.login h3{
+	font-size: 2.5em;
+	color: red;
+}
+.input{
+	width: 100%;
+}
+.input label{
+	width: 100%;
+	display: block;
+}
+.input input{
+	width: 100%;
+	display: block;
+	padding: 5px;
+	background-color: #fdfdfd;
+	color: #333;
+}

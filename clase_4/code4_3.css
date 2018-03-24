@@ -3,9 +3,11 @@ body{
 }
 h1{
 	font-size: 3em;
+	/*PERRO*/
 }
 p{
-	color: #2324d3;
+	color: #2324d3; 
+	background-color: rgb(255,255,0);
 }
 button{
 	padding: 15px;
