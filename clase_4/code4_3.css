@@ -1,0 +1,35 @@
+body{
+	font-family: Lucida Console, monospaced;
+}
+h1{
+	font-size: 3em;
+}
+p{
+	color: #2324d3;
+}
+button{
+	padding: 15px;
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+.boton-alv{
+	color: #fff;
+	background-color: #338222; 
+	border: #338222 1px solid; 
+	box-shadow: 2px 2px 1px 1px #333;
+	cursor: pointer;
+}
+.boton-alv:hover{
+	color: #fdfdfd;
+	background-color: #337222;
+	border: #337222 1px solid;
+}
+.boton-alv:active{
+	color: #fdfdfd;
+	background-color: #336222;
+	border: #336222 1px solid; 
+}
+#txtALV{
+	font-size: 4em;
+	color: #ff5050;
+}
