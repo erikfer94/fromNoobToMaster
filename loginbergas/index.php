@@ -5,6 +5,20 @@ header("Expires: $ts");
 header("Last-Modified: $ts");
 header("Pragma: no-cache");
 header("Cache-Control: no-cache, must-revalidate");	
+session_start();
+$user=new Usuario;
+if(!empty($_POST))
+{	
+	//print_r($_POST);
+	if($user->login($_POST))
+	{
+		header("Location: /home");
+	}
+}
+if(isset($_SESSION["token"]))
+{
+	header("Location: /home");
+}
 ?>
 <!DOCTYPE html>
 <html>
