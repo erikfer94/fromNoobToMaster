@@ -11,7 +11,7 @@ class Semestre{
 }
 
 use Escuela as Infierno;
-use Perdicion;
+use Perdicion; //use Perdicion as Perdicion
 use Engordamiento as Paraiso;
 
 $mac=new Infierno\FESAcatlan;

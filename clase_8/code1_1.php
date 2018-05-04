@@ -1,7 +1,7 @@
 <?php
 echo date("d/m/Y H:i:s")."<br/>";
 echo date("d/m/Y H:i:s", strtotime("- 1 month"))."<br/>";
-$fecha=strtotime("+ 8 years");
+$fecha=strtotime("+ 20 years");
 $strFecha=date("d/m/Y H:i:s", $fecha);
 echo $strFecha."<br/>";
 echo date("d-m-Y H i' s''", strtotime($strFecha))."<br/>";
